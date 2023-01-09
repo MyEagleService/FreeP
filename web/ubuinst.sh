@@ -140,13 +140,12 @@ exit;
 else
   echo -e 'by: @swittecnologia' >/usr/lib/telegram
   msg -bar
-  echo -e "\e[1;97m           \e[5m\033[1;100m   INSTALACAO GRATUITA   \033[1;37m"
+  echo -e "\e[1;97m           \e[5m\033[1;100m   INSTALAÇÃO GRATUITA   \033[1;37m"
   msg -bar
-    echo -e 'EAGLE WEB PAINEL' | figlet -f small | lolcat
+  echo -e 'EAGLE WEB PAINEL' | figlet -f small | lolcat
   echo '                  ⚠️ ATENÇÃO                   ╔═╗' | lolcat
   echo '         LEIA AS INFORMACOES DURANTE A         ╠╣REE VERSION' | lolcat
-  echo '    INSTALAÇÃO E EVITE PERGUNTAS INÚTEIS       ╚ by ⌲ @HarrisonnWells' | lolcat
-  echo ""confirmações.\n"
+  echo '    INSTALAÇÃO E EVITE PERGUNTAS INÚTEIS       ╚ by ⌲ @HarrisonnWells\n' | lolcat
   msg -bar3
   msg -ne "\n Você deseja continuar? [S/n]: "
   read opcion
